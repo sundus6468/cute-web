@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Gallery | Cute Cubs Store</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background: #fff8dc;
+    }
+    header, nav, main, footer {
+      padding: 10px;
+    }
+    header {
+      background: #ffb347;
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
+    nav {
+      background: #ffcc33;
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+    }
+    nav a {
+      text-decoration: none;
+      color: #333;
+      font-weight: bold;
+    }
+    nav a:hover {
+      color: #ff6600;
+    }
+    main {
+      padding: 20px;
+    }
+    .gallery {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+    }
+    .gallery img {
+      width: 200px;
+      border-radius: 10px;
+      box-shadow: 0 0 5px rgba(0,0,0,0.2);
+    }
+    table {
+      width: 80%;
+      margin: 30px auto;
+      border-collapse: collapse;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      background: #fff;
+    }
+    th, td {
+      border: 1px solid #ddd;
+      padding: 12px;
+      text-align: center;
+    }
+    th {
+      background: #ffb347;
+      color: white;
+    }
+    tr:nth-child(even) {
+      background: #f9f9f9;
+    }
+    tr:hover {
+      background: #ffe4b5;
+    }
+    footer {
+      background: #ffb347;
+      color: white;
+      text-align: center;
+      padding: 10px;
+      position: relative;
+      bottom: 0;
+      width: 100%;
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <h1>Cute Cubs Store - Gallery</h1>
+  </header>
+
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="gallery.html">Gallery</a>
+    <a href="booking.html">Booking</a>
+    <a href="help.html">Help</a>
+    <a href="about.html">About</a>
+  </nav>
+
+  <main>
+    <h2>Our Cute Products</h2>
+    <div class="gallery">
+      <img src="cute/1.jpg" alt="Plush teddy bear">
+      <img src="cute/2.jpg" alt="Colourful kids blocks">
+      <img src="cute/3.jpg" alt="Cute kids shoes">
+    </div>
+
+    <h2>Product Details</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Product</th>
+          <th>Size</th>
+          <th>Price ($)</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Teddy Bear</td>
+          <td>Medium</td>
+          <td>15</td>
+        </tr>
+        <tr>
+          <td>Kids Blocks</td>
+          <td>Large</td>
+          <td>20</td>
+        </tr>
+        <tr>
+          <td>Kids Shoes</td>
+          <td>Size 5</td>
+          <td>25</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <td colspan="3">All products are high quality and affordable!</td>
+        </tr>
+      </tfoot>
+    </table>
+  </main>
+
+  <footer>
+    &copy; 2025 Cute Cubs Store. All rights reserved.
+  </footer>
+
+</body>
+</html>
